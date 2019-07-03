@@ -22,9 +22,11 @@ Here you will see your Pool Number = <span class="phNumber">18889735167</span>
   <button onclick="myFunction()">Refresh number</button>
   
   <script>
-    var clicks = 0
+    var clicks = 0;
+    var tag = 'tag';
     function myFunction() {
-      (window._rgba_tags = (window._rgba_tags || [])).push({"tag"+clicks:"NewTag"+clicks});
+      tag = 'tag' + clicks;
+      (window._rgba_tags = (window._rgba_tags || [])).push({tag: tag});
     }
   </script>
 </body>
