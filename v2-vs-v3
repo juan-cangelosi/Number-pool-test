@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- -->
+<head>
+
+<script type="text/javascript">
+//Add custom tag:
+(window._rgba_tags = (window._rgba_tags || [])).push({tag1:"123"},{tag2:""});
+(window._rgba_tags = (window._rgba_tags || [])).push({test:"test_123"});
+</script>
+
+<script> (function(e,d) {
+        //Ringba.com phone number tracking
+        var ringba_com_tag="JSbb52694a388b42a9a9e952cd1c5dce34";
+        var _sc = d.getElementsByTagName('script'), _s = _sc[_sc.length - 1];
+        e._rgba = e._rgba || { q: [] }; e._rgba.q.push({ tag: ringba_com_tag, script: _s });
+        if (!(e._rgba.loading = !!e._rgba.loading)) {
+            var sc = d.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+            sc.src = '//js.callcdn.com/js_v2/min/ringba.com.js';
+            var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+            e._rgba.loading = true;
+        }
+   })(window,document); </script>
+
+</head>
+<body >
+Here you will see your Pool Number = <span>18552625561</span>
+<button onclick="pushTag()"
+<p>
+  <script "text/javascript">
+    function pushTag() {
+      (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclick"});
+    }
+  </script>
+</body>
+
+</html>
