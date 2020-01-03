@@ -16,11 +16,15 @@
 </head>
 <body >
 Here you will see your Pool Number = <span>18552625561</span>
-<button onclick="pushTag()"
+  <button onclick="pushTag()">Push Tag</button>
+  <button onclick="pushOtherTag()">Push Another Tag </button>
 <p>
   <script "text/javascript">
     function pushTag() {
       (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclick"});
+    }
+        function pushTag() {
+      (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclickOtherTag"});
     }
   </script>
 </body>
