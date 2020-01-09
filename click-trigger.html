@@ -7,9 +7,8 @@
 
 <script type="text/javascript">
 //Add custom tag:
-(window._rgba_tags = (window._rgba_tags || [])).push({tag1:"123"},{tag2: 0});
-  (window._rgba_tags = (window._rgba_tags || [])).push({tag1:"345"},{tag2:"123"});
-(window._rgba_tags = (window._rgba_tags || [])).push({test:"test_123"});
+var i = 1;
+(window._rgba_tags = (window._rgba_tags || [])).push({tag1:0},{tag2: 0});
 </script>
 
 <script src="//b-js.ringba.com/CA0f47bfbd4a734ea796c25b8d2f80abe7" async="async"></script>
@@ -21,12 +20,12 @@ Here you will see your Pool Number = <span>18552625561</span>
   <button onclick="pushOtherTag()">Push Another Tag </button>
 <p>
   <script "text/javascript">
-    var i = 1;
+   
     function pushTag() {
-      (window._rgba_tags = (window._rgba_tags || [])).push({tag2: i});
+      (window._rgba_tags = (window._rgba_tags || [])).push({tag1: i});
       i++;
     }
-        function pushOtherTag() {
+    function pushOtherTag() {
       (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclickOtherTag"});
     }
   </script>
