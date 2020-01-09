@@ -7,7 +7,7 @@
 
 <script type="text/javascript">
 //Add custom tag:
-(window._rgba_tags = (window._rgba_tags || [])).push({tag1:"123"},{tag2:""});
+(window._rgba_tags = (window._rgba_tags || [])).push({tag1:"123"},{tag2: 0});
   (window._rgba_tags = (window._rgba_tags || [])).push({tag1:"345"},{tag2:"123"});
 (window._rgba_tags = (window._rgba_tags || [])).push({test:"test_123"});
 </script>
@@ -21,8 +21,10 @@ Here you will see your Pool Number = <span>18552625561</span>
   <button onclick="pushOtherTag()">Push Another Tag </button>
 <p>
   <script "text/javascript">
+    var i = 1;
     function pushTag() {
-      (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclick"});
+      (window._rgba_tags = (window._rgba_tags || [])).push({tag2: i});
+      i++;
     }
         function pushOtherTag() {
       (window._rgba_tags = (window._rgba_tags || [])).push({tag2:"pushedafterclickOtherTag"});
